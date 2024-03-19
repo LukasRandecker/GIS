@@ -1,3 +1,3 @@
-# GIS
+# GIS Projekt
 
-## Hall
+## Projektidee
