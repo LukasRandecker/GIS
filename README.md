@@ -2,7 +2,7 @@
 
 ## Projektidee: Onlineshop für Gewürze
 # Was muss die Homepage können? 
-- Loadingpage mit verschiedenen Informationen zum hypothetischen Unternehmen (Herstellung der Gewürze, Importländer und ähnliches) 
+- Landingpage mit verschiedenen Informationen zum hypothetischen Unternehmen (Herstellung der Gewürze, Importländer und ähnliches) 
   > Texte hierfür sollen mit hilfe von KI generiert werden (Chat GPT)
 - Onlineshop mit verschiedenen Gewürzen
   > Start mit ca. 20 verschienden Gewürzen. \
