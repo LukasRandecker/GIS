@@ -12,7 +12,7 @@
 - Hostacc. hat die Möglichkeit über ein Formular das Angebot in Onlineshop zu verändern (Gewürze hinzufügen oder entfernen, Anpassung von Verfügbarkeit) 
 - Datenbank mit folgenden Informationen (Gewürz, Herkunft, Preis pro 100g, Bewertung (0-5 Sterne), Anzahl der Bewertungen, Verfügbarkeit)
   > Bsp. (Zimt, Indonesien, 2.29€, 4, 10, jederzeit Lieferbar), (Vanille, Madagaskar, 9.99€, 5, 1, momentan nicht Lieferbar)
-- Datenbank für die Kunden mit folgenden Informationen (Herr/Frau, Vorname, Nachname, Kundennummer, Straße, Hausnummer, PLZ, Ort, Mailadresse, Passwort)
+- Datenbank für die Kunden mit folgenden Informationen (Herr/Frau/Divers, Vorname, Nachname, Kundennummer, Straße, Hausnummer, PLZ, Ort, Mailadresse, Passwort)
   > Bsp. (Herr, Max, Mustermann, 1, Hauptstraße, 42, 78120, Furtwangen, max.mustermann@gmail.com, 123456789)
   
                                                                                                 

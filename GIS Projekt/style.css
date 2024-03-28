@@ -21,6 +21,7 @@ header{
     position: absolute;
     opacity: 0.85;
     z-index: -1;
+    filter: blur(1.5px)
 }
 
 .header_h{
@@ -49,7 +50,6 @@ header{
 }
 
 .header_button{
-    position: absolute;
     width: 7vw; 
     height: 5vh;
     left: 7vw; 
@@ -59,6 +59,10 @@ header{
     color: whitesmoke;
     background-color: black;
     border: none; 
+}
+
+#first_button{
+    position: absolute;
 }
 
 .header_button:hover{
@@ -81,7 +85,7 @@ nav{
 }
 
 nav button{
-    height: min-content;
+    height: 4vh;
     font-size: 2vh;
     background: transparent;
     border: none; 
@@ -138,8 +142,6 @@ main{
 .main_img_box2 img{
     max-width: 60vw;
 }
-
-
 
 #main_text_box{
     position: absolute;
@@ -236,4 +238,123 @@ footer{
 
 .footer_box img{
     max-width: 3vw;
+}
+
+#shop{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.shop_cont{   
+    display: flex;
+    flex-direction: row; 
+}
+
+.shop_box{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 15vw;
+    background-color: #f9f9f9;
+    border: 3px groove rgb(200, 197, 197);
+    box-shadow: 5px 5px 10px rgb(200, 197, 197); 
+    margin: 2vw; 
+}
+
+.shop_porductpicture img{
+    width: 15vw;
+    border-bottom:2px solid rgb(200, 197, 197);
+}
+
+.shop_productinfo{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+
+}
+
+.shop_productinfo_header, .shop_productinfo_footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.shop_productinfo_origin{
+    width: 	50%;
+    height: auto;
+    font-size: 1vw;
+}
+
+.shop_productinfo_origin h3{
+    font-size: 1.3vw;
+}
+
+.shop_productinfo_evaluation{
+    font-size: .6vw;
+    width: 50%;
+}
+
+.shop_productinfo_evaluation div{
+    display: flex;
+    flex-direction: row-reverse;   
+}
+
+.shop_productinfo_stars img, .shoppingcart{
+    max-height: 1vw;
+    filter: drop-shadow(1px 1px 0px black);
+    padding: 1px;  
+}
+
+.shop_productinfo_footer{
+    justify-content: space-between;
+    padding: 2%;
+}
+.shop_productinfo_price{
+    font-size: 1vw;
+}
+
+.shop_productinfo_price_100{
+    display: flex;
+    justify-content: end;
+    font-size: .6vw;
+    line-height: 50%;
+}
+
+.availability{
+    display: flex;
+    justify-content: end;
+    font-size: .6vw;
+    line-height: 120%;
+}
+
+.in_shop_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    padding: 2px;
+    border-radius: 5px;
+    width: 6vw;
+}
+.innertext_button{
+    font-size: .8vw;
+}
+#in_shop_button_g:hover{
+    background-color: rgb(142, 241, 142);
+    box-shadow: 1px 1px 10px rgb(142, 241, 142);
+}
+
+#in_shop_button_r:hover{
+    background-color: rgb(241, 1, 1);
+    box-shadow: 1px 1px 10px rgb(229, 86, 86);
+}
+
+.shoppingcar{
+    height: 3vh; 
+    position: relative;
+    top: -.5vh;
+    filter: invert(); 
 }
